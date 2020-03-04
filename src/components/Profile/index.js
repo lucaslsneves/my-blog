@@ -1,7 +1,7 @@
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
-import { Container } from './styles';
 
+import * as S from './styles';
 import Avatar from '../Avatar';
 
 export default function Profile() {
@@ -21,11 +21,13 @@ export default function Profile() {
     }
   `);
   return (
-    <Container>
-      <Avatar />
-      <h1>{title}</h1>
-      <h2>{position}</h2>
+    <S.ProfileContainer>
+      <S.ProfileLink to="/">
+        <Avatar />
+        <h1>{title}</h1>
+        <h2>{position}</h2>
+      </S.ProfileLink>
       <p>{description}</p>
-    </Container>
+    </S.ProfileContainer>
   );
 }

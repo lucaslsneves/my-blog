@@ -1,18 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Profile from '../Profile';
-
-import { Container, Content } from './styles';
+import Sidebar from '../Sidebar';
+import GlobalStyle from '../../styles/global';
+import * as S from './styles';
 
 const Layout = ({ children }) => (
   <>
-    <Container>
-      <aside>
-        <Profile />
-      </aside>
-      <Content>{children}</Content>
-    </Container>
+    <S.Container>
+      <GlobalStyle />
+      <Sidebar />
+      <S.Content>{children}</S.Content>
+    </S.Container>
   </>
 );
 
