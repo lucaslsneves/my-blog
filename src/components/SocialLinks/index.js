@@ -13,7 +13,12 @@ export default function SocialLinks() {
           const Icon = Icons[link.label];
           return (
             <li key={link.label}>
-              <a href={link.url} target="__blank">
+              <a
+                href={link.url}
+                title={link.label}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <S.IconWrapper>
                   <Icon />
                 </S.IconWrapper>

@@ -18,7 +18,7 @@ export const ProfileLink = styled(Link)`
   h1 {
     font-size: 1.6rem;
     margin: 0.5rem 0;
-
+  }
   h2 {
     display: block;
     font-size: 1.2rem;
