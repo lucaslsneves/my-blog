@@ -8,7 +8,15 @@ import PostItem from '../components/PostItem';
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <PostItem tagBackground="blue" />
+    <PostItem
+      slug="/about"
+      date="25 de fevereiro de 2020"
+      timeToRead="25"
+      title="API REST em NodeJS"
+      category="NodeJS"
+      description="Aprenda a criar uma API REST em NodeJS utilizando express"
+      tagBackground="blue"
+    />
   </Layout>
 );
 

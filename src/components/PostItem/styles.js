@@ -22,7 +22,8 @@ export const PostItemTag = styled.div`
   min-height: 90px;
   min-width: 90px;
   border-radius: 50%;
-  background: ${props => props.tagBackground};
+  background: ${props =>
+    props.tagBackground ? props.tagBackground : '#1fa1f2'};
   font-size: 1.3rem;
   color: #fff;
   margin-right: 1.5rem;
