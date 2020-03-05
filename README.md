@@ -22,3 +22,8 @@
 
 
 ## Ainda faltam algumas funcionalidades
+
+- Responsivo
+- GraphQl + Remark
+- Criação da Page Search
+- Deploy netlify
