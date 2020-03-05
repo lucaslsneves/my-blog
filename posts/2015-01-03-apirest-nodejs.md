@@ -1,6 +1,6 @@
 ---
 category: Node
-date: 2020-01-03 05:54:23
+date: 2015-01-03 20:54:23
 description: Aprenda a criar uma API REST em NodeJS utilizando express
 title: API REST em NodeJS
 tagBackground: "#7AAB13"
