@@ -1,4 +1,5 @@
-const path = require("path");
+const path = require('path');
+
 const { createFilePath } = require(`gatsby-source-filesystem`);
 
 // To add slug field to each post
@@ -20,8 +21,6 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     });
   }
 };
-
-const path = require(`path`);
 
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions;
@@ -50,9 +49,9 @@ exports.createPages = ({ graphql, actions }) => {
         path: node.fields.slug,
         component: path.resolve('./src/templates/blog-post.js'),
         context: {
-          slug: node.fields.slug
-        }
-      })
+          slug: node.fields.slug,
+        },
+      });
     });
   });
 };
