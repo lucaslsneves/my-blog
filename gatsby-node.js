@@ -34,14 +34,6 @@ exports.createPages = ({ graphql, actions }) => {
               fields {
                 slug
               }
-              frontmatter {
-                category
-                date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY ")
-                description
-                tagBackground
-                title
-              }
-              timeToRead
             }
           }
         }
@@ -53,7 +45,7 @@ exports.createPages = ({ graphql, actions }) => {
     posts.forEach(({ node }) => {
       createPage({
         path: node.fields.slug,
-        component: path.resolve('./src/templates/blog-post.js'),
+        component: path.resolve('./src/templates/BlogPost/index.js'),
         context: {
           slug: node.fields.slug,
         },

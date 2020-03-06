@@ -4,6 +4,7 @@ import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
 import SEO from '../components/seo';
 import PostItem from '../components/PostItem';
+import Pagination from '../components/Pagination';
 
 export default function BlogList(props) {
   const postList = props.data.allMarkdownRemark.edges;
@@ -30,6 +31,10 @@ export default function BlogList(props) {
           />
         )
       )}
+      <Pagination
+        currentPage={props.pageContext.currentPage}
+        numPages={props.pageContext.numPages}
+      />
     </Layout>
   );
 }
