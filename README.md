@@ -1,6 +1,7 @@
 # Screenshots
 
-![Captura de tela de 2020-03-05 01-31-56](https://user-images.githubusercontent.com/53489804/75948106-52226780-5e81-11ea-9f35-5dc319a41543.png)
+![Captura de tela de 2020-03-07 11-47-58](https://user-images.githubusercontent.com/53489804/76145603-93756b80-6069-11ea-9dad-7c43773495fb.png)
+
 
 # Inicializando
 
@@ -24,6 +25,5 @@
 ## Ainda faltam algumas funcionalidades
 
 - Responsivo
-- GraphQl + Remark
 - Criação da Page Search
 - Deploy netlify
