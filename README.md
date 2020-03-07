@@ -21,6 +21,10 @@
  Instale as dependências
 
  `yarn`
+ 
+ Build
+
+ `yarn build`
 
  Inicie a aplicação
 
