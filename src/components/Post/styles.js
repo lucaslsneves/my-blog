@@ -70,11 +70,7 @@ export const MainContent = styled.section`
       margin-bottom: 0;
     }
   }
-  code {
-    display: block;
-    background: rgba(0, 0, 0, 0.3);
-    padding: 1rem;
-  }
+
   p,
   li {
     code {
