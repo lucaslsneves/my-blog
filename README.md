@@ -34,5 +34,4 @@
 ## Ainda faltam algumas funcionalidades
 
 - Responsivo
-- Criação da Page Search
 - Deploy netlify
