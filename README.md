@@ -1,6 +1,11 @@
 # Screenshots
 
+## Home
 ![Captura de tela de 2020-03-07 11-47-58](https://user-images.githubusercontent.com/53489804/76145603-93756b80-6069-11ea-9dad-7c43773495fb.png)
+
+## Post
+![Captura de tela de 2020-03-07 11-49-45](https://user-images.githubusercontent.com/53489804/76145628-db948e00-6069-11ea-8e85-e51e18e5fefd.png)
+
 
 
 # Inicializando
